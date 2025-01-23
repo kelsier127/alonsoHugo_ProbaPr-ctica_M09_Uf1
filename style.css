@@ -201,6 +201,10 @@ span{
     padding:50px;
     border: 2px solid white;
     border-radius: 20px;
+    @media screen and (max-width: 576px){
+        margin: 50px 5%;
+        
+    }
 }
 .formulario{
     display: flex;
